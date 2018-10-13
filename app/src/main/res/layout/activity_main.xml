@@ -15,22 +15,23 @@
         android:orientation="horizontal"
         >
         <Button
+            android:id="@+id/test1"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:textColor="test1"
+            android:text="test1"
             />
         <Button
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:textColor="test2"
+            android:text="test2"
             />
         <Button
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:textColor="test3"
+            android:text="test3"
             />
 
     </LinearLayout>
