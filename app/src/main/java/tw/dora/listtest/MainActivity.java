@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    //建議onCreate裡面避免寫太複雜的code,所以寫個方法獨立處理ListView的內容
+    //建議onCreate裡面避免寫太複雜的code, 所以寫個方法獨立處理ListView的內容
     private void initListView(){
         String[] from = {"title","cont","img"};
         int[] to = {R.id.item_title, R.id.item_context, R.id.item_img};
