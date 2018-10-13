@@ -15,17 +15,18 @@
         android:orientation="horizontal"
         >
         <Button
-            android:id="@+id/test1"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="test1"
+            android:text="add New"
+            android:onClick="addItem"
             />
         <Button
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="test2"
+            android:text="remove3"
+            android:onClick="removeItem3"
             />
         <Button
             android:layout_width="0dp"
